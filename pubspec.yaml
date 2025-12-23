@@ -1,0 +1,70 @@
+name: bneeds_moi
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.10.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.5.1
+  carousel_slider: ^4.2.1
+  dio: ^5.4.3+1
+  url_launcher: ^6.3.0
+  latlong2: ^0.9.1
+  geocoding: ^3.0.0
+  location: ^6.0.2
+  shimmer: ^3.0.0
+  shared_preferences: ^2.2.3
+  google_fonts: ^6.2.1
+  flutter_launcher_icons: ^0.13.1
+  csc_picker_plus: ^0.0.3
+  pie_chart: ^5.4.0
+
+  # ✨✨ பதிப்பு எண் சரியாக உள்ளது ✨✨
+  pdf: ^3.10.8
+  printing: ^5.14.0
+  flutter_html_to_pdf: ^0.7.0
+  # --- ---------------------- ---
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+  fonts:
+    - family: NotoSansTamil
+      fonts:
+        - asset: assets/fonts/NotoSansTamil-Regular.ttf
+        - asset: assets/fonts/NotoSansTamil-Bold.ttf
+          weight: 700
+
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+        - asset: assets/fonts/OpenSans-Bold.ttf
+          weight: 700
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/images/kuruvi_logo.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/kuruvi_logo.png"
+  remove_alpha_ios: true
+
